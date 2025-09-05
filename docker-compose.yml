@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: secfinance-postgres
+    environment:
+      POSTGRES_DB: secfinance
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: SecureFinance123!
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - secfinance-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: secfinance-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - secfinance-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru
+
+  # SecureFinance API
+  secfinance-api:
+    build:
+      context: .
+      dockerfile: SecureFinance.API/Dockerfile
+    container_name: secfinance-api
+    ports:
+      - "8080:80"
+      - "8443:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=secfinance;Username=postgres;Password=SecureFinance123!
+      - ConnectionStrings__Redis=redis:6379
+      - ApiKeys__AlphaVantage=demo
+      - ApiKeys__FRED=your_fred_api_key_here
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - secfinance-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # React Frontend
+  secfinance-web:
+    build:
+      context: ./SecureFinance.Web
+      dockerfile: Dockerfile
+    container_name: secfinance-web
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080
+    depends_on:
+      - secfinance-api
+    networks:
+      - secfinance-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  secfinance-network:
+    driver: bridge

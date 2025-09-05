@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0a0e1a;
+  color: #ffffff;
+}
+
+code {
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}

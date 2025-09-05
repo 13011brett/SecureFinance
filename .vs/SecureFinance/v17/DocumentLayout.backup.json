@@ -1,0 +1,419 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\13011\\dev\\SecureFinance-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\middleware\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\middleware\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.api\\securefinance.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88F621F5-58C0-433A-90F6-D5404714EEA9}|SecureFinance.API\\SecureFinance.API.csproj|solutionrelative:securefinance.api\\securefinance.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.infrastructure\\services\\financialdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|solutionrelative:securefinance.infrastructure\\services\\financialdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.infrastructure\\services\\ifinancialdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|solutionrelative:securefinance.infrastructure\\services\\ifinancialdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.infrastructure\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|solutionrelative:securefinance.infrastructure\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|solutionrelative:securefinance.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.infrastructure\\securefinance.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3EBF8E99-6732-4F91-9F55-9905F20BF068}|SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj|solutionrelative:securefinance.infrastructure\\securefinance.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\services\\hybridencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\services\\hybridencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\services\\iencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\services\\iencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\models\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\models\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\models\\stockdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\models\\stockdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\models\\encryptionkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\models\\encryptionkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\models\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\models\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\models\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\models\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|c:\\users\\13011\\dev\\securefinance-api\\securefinance.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FDF2AE-7B1D-4AF8-B5EE-4FBA035D5D1F}|SecureFinance.Core\\SecureFinance.Core.csproj|solutionrelative:securefinance.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SecureFinance.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\appsettings.json",
+              "RelativeToolTip": "SecureFinance.API\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-05T17:42:46.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RateLimitingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Middleware\\RateLimitingMiddleware.cs",
+              "RelativeDocumentMoniker": "SecureFinance.API\\Middleware\\RateLimitingMiddleware.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Middleware\\RateLimitingMiddleware.cs",
+              "RelativeToolTip": "SecureFinance.API\\Middleware\\RateLimitingMiddleware.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:40:23.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SecureFinance.API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SecureFinance.API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:39:49.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExchangeRateController.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\ExchangeRateController.cs",
+              "RelativeDocumentMoniker": "SecureFinance.API\\Controllers\\ExchangeRateController.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\ExchangeRateController.cs",
+              "RelativeToolTip": "SecureFinance.API\\Controllers\\ExchangeRateController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:39:24.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\CryptoController.cs",
+              "RelativeDocumentMoniker": "SecureFinance.API\\Controllers\\CryptoController.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\CryptoController.cs",
+              "RelativeToolTip": "SecureFinance.API\\Controllers\\CryptoController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:39:03.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "SecureFinance.API\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Controllers\\StockController.cs",
+              "RelativeToolTip": "SecureFinance.API\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:37:16.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SecureFinance.API",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\SecureFinance.API.csproj",
+              "RelativeDocumentMoniker": "SecureFinance.API\\SecureFinance.API.csproj",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\SecureFinance.API.csproj*",
+              "RelativeToolTip": "SecureFinance.API\\SecureFinance.API.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-05T17:36:56.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Program.cs",
+              "RelativeDocumentMoniker": "SecureFinance.API\\Program.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.API\\Program.cs",
+              "RelativeToolTip": "SecureFinance.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:36:51.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FinancialDataService.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Services\\FinancialDataService.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Infrastructure\\Services\\FinancialDataService.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Services\\FinancialDataService.cs",
+              "RelativeToolTip": "SecureFinance.Infrastructure\\Services\\FinancialDataService.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAiwNcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:36:21.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFinancialDataService.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Services\\IFinancialDataService.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Infrastructure\\Services\\IFinancialDataService.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Services\\IFinancialDataService.cs",
+              "RelativeToolTip": "SecureFinance.Infrastructure\\Services\\IFinancialDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:35:59.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Infrastructure\\Services\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "SecureFinance.Infrastructure\\Services\\RedisCacheService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:35:44.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SecureFinance.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:35:15.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SecureFinance.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj*",
+              "RelativeToolTip": "SecureFinance.Infrastructure\\SecureFinance.Infrastructure.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-05T17:34:39.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Services\\ICacheService.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Services\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Services\\ICacheService.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Services\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:34:16.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HybridEncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Services\\HybridEncryptionService.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Services\\HybridEncryptionService.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Services\\HybridEncryptionService.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Services\\HybridEncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:33:44.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Services\\IEncryptionService.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Services\\IEncryptionService.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Services\\IEncryptionService.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Services\\IEncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:33:22.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\ApiResponseDto.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Models\\ApiResponseDto.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\ApiResponseDto.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Models\\ApiResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:32:40.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StockDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\StockDataDto.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Models\\StockDataDto.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\StockDataDto.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Models\\StockDataDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA2wCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:32:22.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EncryptionKey.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\EncryptionKey.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Models\\EncryptionKey.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\EncryptionKey.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Models\\EncryptionKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:32:02.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\ApiRequest.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Models\\ApiRequest.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\ApiRequest.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Models\\ApiRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:31:39.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\DataSource.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Models\\DataSource.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\DataSource.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Models\\DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:31:29.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Models\\User.cs*",
+              "RelativeToolTip": "SecureFinance.Core\\Models\\User.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:30:50.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "SecureFinance.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\13011\\dev\\SecureFinance-API\\SecureFinance.Core\\Class1.cs",
+              "RelativeToolTip": "SecureFinance.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:30:10.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

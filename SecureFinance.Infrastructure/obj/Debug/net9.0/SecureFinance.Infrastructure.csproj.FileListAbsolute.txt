@@ -1,0 +1,15 @@
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\bin\Debug\net9.0\SecureFinance.Infrastructure.deps.json
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\bin\Debug\net9.0\SecureFinance.Infrastructure.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\bin\Debug\net9.0\SecureFinance.Infrastructure.pdb
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\bin\Debug\net9.0\SecureFinance.Core.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\bin\Debug\net9.0\SecureFinance.Core.pdb
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.AssemblyInfo.cs
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFi.C44FD9FC.Up2Date
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\refint\SecureFinance.Infrastructure.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.pdb
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\ref\SecureFinance.Infrastructure.dll
