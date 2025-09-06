@@ -5,7 +5,7 @@
         public bool Success { get; set; }
         public T? Data { get; set; }
         public string? ErrorMessage { get; set; }
-        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public DateTime Timestamp { get; set; }
         public bool FromCache { get; set; }
         public int ResponseTimeMs { get; set; }
     }

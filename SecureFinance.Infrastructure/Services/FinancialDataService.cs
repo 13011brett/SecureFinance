@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 using SecureFinance.Core.DTOs;
 using SecureFinance.Core.Services;
+using Microsoft.AspNetCore.Http;
 
 namespace SecureFinance.Infrastructure.Services
 {
@@ -12,17 +13,20 @@ namespace SecureFinance.Infrastructure.Services
         private readonly ICacheService _cacheService;
         private readonly IConfiguration _configuration;
         private readonly ILogger<FinancialDataService> _logger;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         public FinancialDataService(
             HttpClient httpClient,
             ICacheService cacheService,
             IConfiguration configuration,
-            ILogger<FinancialDataService> logger)
+            ILogger<FinancialDataService> logger,
+            IHttpContextAccessor httpContextAccessor)
         {
             _httpClient = httpClient;
             _cacheService = cacheService;
             _configuration = configuration;
             _logger = logger;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<StockDataDto?> GetStockDataAsync(string symbol)
@@ -33,6 +37,8 @@ namespace SecureFinance.Infrastructure.Services
             var cachedData = await _cacheService.GetAsync<StockDataDto>(cacheKey);
             if (cachedData != null)
             {
+                // Set header to indicate this was served from cache
+                SetCacheHeader();
                 return cachedData;
             }
 
@@ -78,6 +84,8 @@ namespace SecureFinance.Infrastructure.Services
             var cachedData = await _cacheService.GetAsync<CryptoDataDto>(cacheKey);
             if (cachedData != null)
             {
+                // Set header to indicate this was served from cache
+                SetCacheHeader();
                 return cachedData;
             }
 
@@ -122,6 +130,8 @@ namespace SecureFinance.Infrastructure.Services
             var cachedData = await _cacheService.GetAsync<ExchangeRateDto>(cacheKey);
             if (cachedData != null)
             {
+                // Set header to indicate this was served from cache
+                SetCacheHeader();
                 return cachedData;
             }
 
@@ -161,6 +171,7 @@ namespace SecureFinance.Infrastructure.Services
         {
             var results = new List<EconomicIndicatorDto>();
             var apiKey = _configuration["ApiKeys:FRED"];
+            bool anyFromCache = false;
 
             foreach (var seriesId in seriesIds)
             {
@@ -170,6 +181,7 @@ namespace SecureFinance.Infrastructure.Services
                 var cachedData = await _cacheService.GetAsync<EconomicIndicatorDto>(cacheKey);
                 if (cachedData != null)
                 {
+                    anyFromCache = true;
                     results.Add(cachedData);
                     continue;
                 }
@@ -210,7 +222,29 @@ namespace SecureFinance.Infrastructure.Services
                 }
             }
 
+            // Set cache header if any data came from cache
+            if (anyFromCache)
+            {
+                SetCacheHeader();
+            }
+
             return results;
+        }
+
+        private void SetCacheHeader()
+        {
+            try
+            {
+                var context = _httpContextAccessor.HttpContext;
+                if (context != null && !context.Response.HasStarted)
+                {
+                    context.Response.Headers["X-From-Cache"] = "true";
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex, "Failed to set cache header");
+            }
         }
     }
 }

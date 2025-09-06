@@ -18,7 +18,7 @@ namespace SecureFinance.Core.Models
 
         public bool IsActive { get; set; } = true;
 
-        public DateTime LastHealthCheck { get; set; } = DateTime.UtcNow;
+        public DateTime LastHealthCheck { get; set; }
 
         public string? ApiKey { get; set; }
 

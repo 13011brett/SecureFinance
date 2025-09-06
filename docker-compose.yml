@@ -6,7 +6,7 @@ services:
     image: postgres:15-alpine
     container_name: secfinance-postgres
     environment:
-      POSTGRES_DB: secfinance
+      POSTGRES_DB: secfinance_dev
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: SecureFinance123!
     ports:
@@ -45,11 +45,12 @@ services:
       dockerfile: SecureFinance.API/Dockerfile
     container_name: secfinance-api
     ports:
-      - "8080:80"
+      - "8080:8080"
       - "8443:443"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Host=postgres;Database=secfinance;Username=postgres;Password=SecureFinance123!
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=secfinance_dev;Username=postgres;Password=SecureFinance123!
       - ConnectionStrings__Redis=redis:6379
       - ApiKeys__AlphaVantage=demo
       - ApiKeys__FRED=your_fred_api_key_here

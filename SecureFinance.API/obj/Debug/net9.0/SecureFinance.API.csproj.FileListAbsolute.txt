@@ -166,3 +166,4 @@ C:\Users\13011\dev\SecureFinance-API\SecureFinance.API\bin\Debug\net9.0\Microsof
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.API\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.API\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.API\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.API\obj\Debug\net9.0\SecureFinance.API.sourcelink.json

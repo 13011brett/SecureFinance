@@ -2014,6 +2014,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.EntityFrameworkCore": "9.0.8",
           "Microsoft.Extensions.Http": "9.0.8",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",

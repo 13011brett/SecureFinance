@@ -20,7 +20,7 @@ namespace SecureFinance.Core.Models
 
         public bool WasCached { get; set; }
 
-        public DateTime RequestedAt { get; set; } = DateTime.UtcNow;
+        public DateTime RequestedAt { get; set; }
 
         public string? ErrorMessage { get; set; }
 

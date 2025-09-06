@@ -10,3 +10,4 @@ C:\Users\13011\dev\SecureFinance-API\SecureFinance.Core\obj\Debug\net9.0\SecureF
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.Core\obj\Debug\net9.0\refint\SecureFinance.Core.dll
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.Core\obj\Debug\net9.0\SecureFinance.Core.pdb
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.Core\obj\Debug\net9.0\ref\SecureFinance.Core.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Core\obj\Debug\net9.0\SecureFinance.Core.sourcelink.json

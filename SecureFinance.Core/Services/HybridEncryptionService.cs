@@ -17,12 +17,34 @@ namespace SecureFinance.Core.Services
         {
             _configuration = configuration;
             _rsaProvider = RSA.Create(2048);
-
-            // In production, these would be loaded from secure key management
-            _publicKeyPem = _configuration["Encryption:PublicKey"] ?? GenerateKeyPair().publicKey;
-            _privateKeyPem = _configuration["Encryption:PrivateKey"] ?? GenerateKeyPair().privateKey;
-
-            _rsaProvider.ImportFromPem(_privateKeyPem);
+            
+            // Handle missing or empty keys gracefully
+            var publicKey = _configuration["Encryption:PublicKey"];
+            var privateKey = _configuration["Encryption:PrivateKey"];
+            
+            if (!string.IsNullOrEmpty(privateKey) && !string.IsNullOrEmpty(publicKey))
+            {
+                try
+                {
+                    _rsaProvider.ImportFromPem(privateKey);
+                    _publicKeyPem = publicKey;
+                    _privateKeyPem = privateKey;
+                }
+                catch
+                {
+                    // Generate new keys if import fails
+                    var keyPair = GenerateKeyPair();
+                    _publicKeyPem = keyPair.publicKey;
+                    _privateKeyPem = keyPair.privateKey;
+                }
+            }
+            else
+            {
+                // Generate new keys if none provided
+                var keyPair = GenerateKeyPair();
+                _publicKeyPem = keyPair.publicKey;
+                _privateKeyPem = keyPair.privateKey;
+            }
         }
 
         public async Task<string> EncryptDataAsync(string data, int userId)

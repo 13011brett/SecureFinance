@@ -7,6 +7,7 @@ using SecureFinance.Infrastructure.Services;
 using Serilog;
 using StackExchange.Redis;
 using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,7 @@ builder.Host.UseSerilog();
 
 // Add services to the container
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor();
 
 // Configure Entity Framework
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -34,7 +36,7 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(provider =>
 });
 
 // Register services
-builder.Services.AddScoped<ICacheService, RedisCacheService>();
+builder.Services.AddSingleton<ICacheService, RedisCacheService>();
 builder.Services.AddScoped<IEncryptionService, HybridEncryptionService>();
 builder.Services.AddScoped<IFinancialDataService, FinancialDataService>();
 
@@ -97,12 +99,11 @@ builder.Services.AddSwaggerGen(c =>
 // Configure CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "https://localhost:3000")
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials();
+              .AllowAnyMethod();
     });
 });
 
@@ -137,12 +138,13 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
-
-app.UseCors("AllowReactApp");
+//app.UseHttpsRedirection();
 
 // Add custom middleware
+app.UseMiddleware<ApiLoggingMiddleware>();
 app.UseMiddleware<RateLimitingMiddleware>();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

@@ -13,3 +13,4 @@ C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\refint\SecureFinance.Infrastructure.dll
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.pdb
 C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\ref\SecureFinance.Infrastructure.dll
+C:\Users\13011\dev\SecureFinance-API\SecureFinance.Infrastructure\obj\Debug\net9.0\SecureFinance.Infrastructure.sourcelink.json

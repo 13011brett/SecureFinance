@@ -16,9 +16,8 @@ namespace SecureFinance.Core.Models
 
         public string? EncryptedSettings { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-        public DateTime LastActive { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
+        public DateTime LastActive { get; set; }
 
         public bool IsActive { get; set; } = true;
 

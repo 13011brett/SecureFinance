@@ -12,7 +12,7 @@ namespace SecureFinance.Core.Models
         [Required]
         public string EncryptedAesKey { get; set; } = string.Empty;
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
 
         public DateTime ExpiresAt { get; set; }
 
